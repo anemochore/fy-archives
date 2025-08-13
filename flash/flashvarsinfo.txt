@@ -1,0 +1,112 @@
+*** typoPlayer ***
+typoPlayer is a simple player that can play mp3 & smi/lrc file with some 'typo' effects.
+effects can be specified within a smi file using <p> class like <p class=effect_1>.
+all tags in a smi file are ignored, except <sync start=xxx> & <p class=effect_xxx>
+ie <b>, <i>, <font>, etc. tags are ignored.
+
+
+*** flashvars ***
+mp3: url of mp3 (default: sample mp3) - should be in the same domain with typoPlayer.swf in order to enable eq
+smi: url of smi (default: none) - if smi & lrc are both specified, only smi will be used
+lrc: url of lrc (default: none) - if smi & lrc are both specified, only smi will be used
+lrcEffects: effect_x (default: none)
+smiEffects: effect_x (default: none) - forces this effect only ignoring effects in a smi file
+lyricsColor: number (default: 0x000000)
+eqVisible: true/false (default: true)
+eqColor: number (default: 0x000000)
+eqType: 1~3 (default: 1)
+eqHeight: px (default: document height/3)
+eqY: px (default: document height/1.5)
+eqBarWidth: number (default: 1) - must be a divisor of 512 like 1, 2, 4, and so on.
+eqThickness: number (default: 1)
+lyricsFilters: b or g or bg(gb) (default: none)
+glowColor: number (default: 0x000000) - will be used only if glow filter is enabled (lyricsFilters)
+title: title (default: none)
+titleY: px (default: document height/2)
+showTitleAtStart: true/false (default: true) - if title is not specified, automatically set false
+showTitleAtEnd: true/false (default: true) - if title is not specified, automatically set false
+lyricsMarginTop: px (default: 56)
+lyricsMarginLeft: px or auto (default: auto)
+lyricsFontSize: number (default: 28)
+lyricsLeading: px (default: 10) - meaning line-space
+
+
+*** effects ***
+when using lrc file, only one effect will be applied which can be specified by lrcEffects flashvars.
+
+effect_1: (reserved)
+effect_2: text appears at the center with alpha increasing then f.o.
+effect_3: magnified texts appear from the top onto center shrinking to its original size, then f.o.
+effect_4: magnified texts appear from the top onto center shrinking to its original size, then disappears
+effect_5: texts appear at the center with its scale varying according as eq, then disappears
+effect_6: texts appear at 'random' positions with its scale varying according as eq, then disappears
+effect_7: texts appear at 'random' positions, then f.o.
+effect_tl: texts typed from the left
+effect_tlc: texts typed from the left continueing previous texts (ie without line changing)
+default: text appears with alpha increasing and auto scrolling (no f.o. till &nbsp; of smi or blank of smi)
+
+
+*** lyricsFilters (only applied to lyric texts not eq or title) ***
+b: blur filter
+g: glow filter
+bg(or gb): blur filter + glow filter
+
+
+*** eqType (doesn't affect lyrics effects like effect_5 or effect_6) ***
+1: normal (default)
+2: previous height is subtracted from current height
+3: same as 1 but up & down (...hard to describe)
+
+
+*** contact me ***
+feelyou aaaat hellokitty dooot com
+http://feelyou.tistory.com
+
+
+
+*** version history ***
+v0.9a / 09-1-5
+* some bugs fixed (including a problem not showing embedded fonts in flash player 10)
++ flashvars added: eqType, eqHeight, eqBarWidth, eqY, eqThickness, titleY
+
+v0.8 / 08-9-28
+* some bugs fixed
++ effects added: effect_tl & effect_tlc
++ flashvars added: lyricsFilters, glowColor, lyricsColor
+- flashvars removed: lyricsAutoMargin
++ lyrics filters added
+
+v0.7 / 08-9-28
++ effects added: effect_7
+* effects changed: effect_6
+
+v0.6c / 08-9-27
+* lrc parsing bug fixed
+
+v0.6 / 08-9-27
++ flashvars added: smiEffects
+* lyrics auto scrolling bug fixed
+
+v0.5 / 08-9-27
++ effects added: effect_5 & effect_6
+* effects changed to take fade-out except effect_4~6 & default
+* no more auto starting
++ pause button added (only mp3 playing will be stopped. animations don't)
+
+v0.3 / 08-9-26
++ lrc file support added
++ lyrics auto scrolling added when using default effect
++ flashvars added: eqColor, lrcEffects
++ effects added: effect_4
+
+v0.2 / 08-9-25
+* font changed: Web가을M (MorrisDesign copyrighted)
+* effects changed & added:
+  * default: alpha increasing added
+  + effect_3 added
++ flashvars added: lyricsAutoMargin, lyricsMarginTop, lyricsMarginLeft, lyricsFontSize, lyricsLeading
+
+v0.1 / 08-9-24
+* font: A045도표 (HNC copyrighted)
+* effects: effect_2 & default
+
