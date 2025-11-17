@@ -1,0 +1,84 @@
+<SAMI>
+<HEAD>
+<Title>제목을 적어 주세요.</Title>
+<Style TYPE="text/css"><!--
+P {margin-left:2pt; margin-right:2pt; margin-bottom:1pt; margin-top:1pt;
+   text-align:center; font-size:20pt; font-family:Arial, Sans-serif;
+   font-weight:bold; color:white;}
+.KRCC {Name:Korean; lang:ko-KR; SAMIType:CC;}
+#STDPrn {Name:Standard Print;}
+#LargePrn {Name:Large Print (26pt); font-size:26pt;}
+#SmallPrn {Name:Small Print (14pt); font-size:14pt;}
+-->
+</Style>
+<!--
+  자막 제작 :
+  제작 날짜 :
+-->
+</HEAD>
+<BODY>
+
+<SYNC Start=25700><P Class=KRCC>
+널 처음 봤던 그날밤과 설렌 맘과
+<SYNC Start=30900><P Class=KRCC>
+손톱 모양 작은 달, 셀 수 없던 많은 별 아래
+<SYNC Start=37900><P Class=KRCC>
+너와 말 없이 걷던 어느 길과
+<SYNC Start=42300><P Class=KRCC>
+그 길에 닿은 모든 사소한 우연과 기억
+<SYNC Start=49300><P Class=KRCC>&nbsp;
+
+<SYNC Start=49700><P Class=KRCC>
+널 기다렸던 나의 맘과 많은 밤과
+<SYNC Start=54900><P Class=KRCC>
+서툴렀던 고백과 놀란 너의 눈빛과
+<SYNC Start=60900><P Class=KRCC>
+내게 왜 이제야 그 말을 하냐고 웃던
+<SYNC Start=66500><P Class=KRCC>
+그 입술과 그 마음과 잡아주던 손길과
+<SYNC Start=73300><P Class=KRCC>&nbsp;
+
+<SYNC Start=74800><P Class=KRCC>
+추억은 투명한 유리처럼 깨지겠지
+<SYNC Start=80800><P Class=KRCC>&nbsp;
+<SYNC Start=86800><P Class=KRCC>
+유리는 날카롭게 너와 나를 베겠지
+<SYNC Start=92800><P Class=KRCC>&nbsp;
+<SYNC Start=95800><P Class=effect_3>
+나의 차가운 피를 용서해
+<SYNC Start=99600><P Class=KRCC>&nbsp;
+<SYNC Start=107800><P Class=effect_2>
+나의 차가운 피를 용서해
+<SYNC Start=111800><P Class=KRCC>&nbsp;
+
+<SYNC Start=123200><P Class=KRCC>
+널 기다렸던 나의 맘과 많은 밤과
+<SYNC Start=128400><P Class=KRCC>
+서툴렀던 고백과 놀란 너의 눈빛과
+<SYNC Start=134400><P Class=KRCC>
+내게 왜 이제야 그 말을 하냐고 웃던
+<SYNC Start=140000><P Class=KRCC>
+그 입술과 그 마음과 잡아주던 손길과
+<SYNC Start=146800><P Class=KRCC>&nbsp;
+
+<SYNC Start=148500><P Class=KRCC>
+추억은 투명한 유리처럼 깨지겠지
+<SYNC Start=154300><P Class=KRCC>&nbsp;
+<SYNC Start=160500><P Class=KRCC>
+유리는 날카롭게 너와 나를 베겠지
+<SYNC Start=166300><P Class=KRCC>&nbsp;
+<SYNC Start=169200><P Class=effect_2>
+나의 차가운 피를 용서해
+<SYNC Start=173200><P Class=KRCC>&nbsp;
+
+<SYNC Start=181200><P Class=effect_2>
+나의 차가운 피를 용서해
+<SYNC Start=185200><P Class=KRCC>&nbsp;
+<SYNC Start=193200><P Class=effect_2>
+나의 차가운 피를 용서해
+<SYNC Start=197200><P Class=KRCC>&nbsp;
+
+</BODY>
+</SAMI>
+
+
